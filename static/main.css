@@ -1,0 +1,122 @@
+.hero {
+    height: 400px;
+    background: midnightblue;
+    background-image: url("images/pokemon7.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+body{
+    background-image: url("images/pokemon4.jpg");
+    background-size: cover;
+}
+
+.card-title {
+    text-align: center;
+    color: white;
+}
+
+.card-text {
+    text-align: center;
+    color: white;
+}
+
+.card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    background-image: url("images/pokemon2.jpg");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #bc1414;
+    border: 2px solid #ced4da;
+    border-radius: 20px;
+    padding: 20px;
+    width: 400px;
+    height: auto;
+    max-width: 700px;
+    gap: 10px;
+    color: white;
+    box-shadow: 3px 4px 8px black;
+}
+
+.sub-hero {
+    height: 300px;
+    background: midnightblue;
+    background-image: url("images/pokemon1.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.dashboard-bg {
+    border-radius: 25px;
+    min-height: 5px;
+    width: 90%;
+    background-image: url("images/pokemon3.jpg");
+    background-size: cover;
+    box-shadow: 5px 5px 5px black;
+    color: white;
+    padding: 20px;
+    
+}
+
+.dashboard-content {
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin-bottom: 50px auto;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #b01717;
+    border: 2px solid #ced4da;
+    border-radius: 10px;
+    padding: 5px;
+    margin: auto;
+    margin-top: 50px;
+    width: 90%;
+    max-width: 700px;
+    gap: 10px;
+    color: white;
+    box-shadow: 3px 4px 8px black;
+}
+
+.card > img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 1px;
+    margin: auto;
+}
+
+@media (max-width: 768px) {
+    .card {
+        padding: 10px; 
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
